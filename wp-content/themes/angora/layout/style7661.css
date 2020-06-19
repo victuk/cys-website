@@ -729,6 +729,26 @@ section.video .video-container {
 	margin-bottom:0;
 }
 
+#contact-submit2{
+	background: transparent;
+	border: 2px solid #f25454;
+	color: #f25454;
+	transition: ease-in;
+	-webkit-transition: ease-in;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	margin-top: 5px;
+}
+
+#contact-submit2:hover{
+	background: #f25454;
+	border: 0px;
+	color: white;
+	transition: ease-out;
+	-webkit-transition: ease-out;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
 
 .navbar .navbar-toggle .icon-bar {
 	height:3px;
