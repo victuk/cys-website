@@ -729,6 +729,7 @@ section.video .video-container {
 	margin-bottom:0;
 }
 
+
 .navbar .navbar-toggle .icon-bar {
 	height:3px;
 	border-radius:1px;
@@ -863,6 +864,10 @@ section.video .video-container {
 	-webkit-transition:all 0.15s ease;
 	   -moz-transition:all 0.15s ease;
 			transition:all 0.15s ease;
+}
+
+.activee{
+	color: #f25454 !important;
 }
 
 .navbar .navbar-social a > i.bl {
