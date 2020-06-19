@@ -668,6 +668,15 @@ section.video .video-container {
 	background-color:transparent !important;	
 }
 
+.navbar .navbar-nav > li > a.fat {
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:.5px;
+	padding-top:0;
+	padding-bottom:0;
+	color:black !important;	
+}
+
 .navbar .navbar-brand {
 	padding-top:0;
 	padding-bottom:0;	
@@ -851,6 +860,13 @@ section.video .video-container {
 
 .navbar .navbar-social a > i {
 	color:#fff;
+	-webkit-transition:all 0.15s ease;
+	   -moz-transition:all 0.15s ease;
+			transition:all 0.15s ease;
+}
+
+.navbar .navbar-social a > i.bl {
+	color:#000;
 	-webkit-transition:all 0.15s ease;
 	   -moz-transition:all 0.15s ease;
 			transition:all 0.15s ease;
