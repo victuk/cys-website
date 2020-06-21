@@ -740,6 +740,14 @@ section.video .video-container {
 	margin-top: 5px;
 }
 
+.fxd{
+	position: fixed;
+	top: 50%;
+	left: 5px;
+	z-index: 5;
+	padding: 5px;
+}
+
 #contact-submit2:hover{
 	background: #f25454;
 	border: 0px;
@@ -749,6 +757,28 @@ section.video .video-container {
 	transition-duration: 1s;
 	-webkit-transition-duration: 1s;
 }
+
+.fxd2{
+	display: none;
+}
+
+@media screen and (max-width:426px){
+	.fxd{
+		display: none;
+	}
+	.fxd2{
+		position: fixed;
+		background-color: #f25454;
+		bottom: 0%;
+		z-index: 5;
+		display: block;
+		width: 100%;
+	}
+	.xfxix{
+		color: white;
+	}
+}
+
 
 .navbar .navbar-toggle .icon-bar {
 	height:3px;
